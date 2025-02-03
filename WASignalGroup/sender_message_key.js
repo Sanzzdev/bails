@@ -1,7 +1,6 @@
 const { deriveSecrets } = require('libsignal/src/crypto');
 class SenderMessageKey {
     iteration = 0;
-
     iv = Buffer.alloc(0);
 
     cipherKey = Buffer.alloc(0);
